@@ -1,14 +1,8 @@
 import searchIcon from "../../imagesNav/searchIcon.svg"
 import { Grid } from "@mui/material"
 import "./searchPanel.css"
-import { useState } from "react"
 
-export default function SearchPanel({ setFilterText }) {
-	const [inputValue, setInputValue] = useState("")
-	const inputChange = (event) => {
-		setInputValue(event.target.value)
-		setFilterText(event.target.value)
-	}
+export default function SearchPanel({ setFilterText, filterText }) {
 	return (
 		<Grid container className="searchPanel">
 			<Grid item xs={1}>
@@ -18,8 +12,10 @@ export default function SearchPanel({ setFilterText }) {
 				<input
 					type="text"
 					placeholder="Поиск"
-					value={inputValue}
-					onChange={inputChange}
+					value={filterText}
+					onChange={(event) => {
+						setFilterText(event.target.value)
+					}}
 				/>
 			</Grid>
 		</Grid>

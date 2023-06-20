@@ -44,7 +44,8 @@ export default function Contacts() {
 					className="searchBar__panel&edit">
 					<Grid item xs={4}>
 						<SearchPanel
-							setFilterText={setFilterText}></SearchPanel>
+							setFilterText={setFilterText}
+							filterText={filterText}></SearchPanel>
 					</Grid>
 					<Grid item xs={8}>
 						<EditButton></EditButton>
