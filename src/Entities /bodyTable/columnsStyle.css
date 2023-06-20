@@ -1,0 +1,17 @@
+.expired-cell {
+    color: red;
+}
+
+.ag-row:hover .expired-cell {
+    background-color: red;
+    color: white;
+}
+
+.expired-cell:focus {
+    background-color: red;
+    color: white;
+}
+
+.ag-row:hover .namePerson {
+    color: #54D3C2;
+}

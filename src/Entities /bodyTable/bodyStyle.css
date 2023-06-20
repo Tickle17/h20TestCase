@@ -42,3 +42,7 @@
     color: rgba(109, 121, 134, 1);
     font-weight: 500;
 }
+
+.expired-cell {
+    color: red;
+}

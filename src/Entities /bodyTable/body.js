@@ -13,7 +13,6 @@ const ContactSheet = ({ setRowsSize, rowsSize, filterText }) => {
 	const gridRef = useRef() //подключаем возможность изменения ad-grid
 	const [rowData, setRowData] = useState() //список строк
 
-	// Each Column Definition results in one Column.
 	const [columnDefs, setColumnDefs] = useState()
 
 	const defaultColDef = useMemo(
@@ -23,6 +22,7 @@ const ContactSheet = ({ setRowsSize, rowsSize, filterText }) => {
 		}),
 		[]
 	)
+
 	useEffect(() => {
 		setRowData(data)
 		setColumnDefs(columns)
