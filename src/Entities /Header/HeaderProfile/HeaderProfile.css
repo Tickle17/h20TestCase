@@ -1,0 +1,13 @@
+.headerProfile {
+    white-space: nowrap;
+    align-items: center;
+}
+
+.headerProfile_name {
+    font-size: 16px;
+}
+
+.headerProfile_role {
+    font-size: 14px;
+    color: rgba(152, 159, 163, 1);
+}

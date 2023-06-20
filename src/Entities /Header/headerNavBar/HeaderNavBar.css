@@ -1,0 +1,41 @@
+.navButtonsFlex {
+    display: flex;
+}
+
+.navButtonsFlex.right {
+    justify-content: flex-start;
+}
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 26px;
+    border-bottom: 1px solid #D2D1D1 !important;
+
+}
+
+.navMenu_navItem {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    padding-bottom: 8px;
+
+}
+
+.navMenu_navItem a {
+    padding-bottom: 5px;
+    color: rgba(210, 209, 209, 1);
+
+}
+
+.navMenu_navItem a:hover {
+    border-bottom: 4px solid #54d3c2 !important;
+}
+
+.navMenu_navItem a.active {
+    color: rgb(0, 0, 0);
+    font-weight: bold !important;
+    border-bottom: 4px solid #54d3c2 !important;
+}

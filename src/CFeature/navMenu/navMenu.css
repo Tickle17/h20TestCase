@@ -1,0 +1,33 @@
+.navMenu_logo {
+    margin: 55px 10px !important;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navMenu_item {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px !important;
+    transition: background-color 0.3s ease; /* Добавляем transition */
+    border-radius: 16px;
+}
+
+.navMenu_item img {
+    padding: 11px;
+    border-radius: 16px;
+}
+
+.navMenu_item_active:hover {
+    background-color: rgba(169, 233, 224, 0.75);
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 0.5ms;
+    transition: background-color 0.3s ease; /* Добавляем transition */
+
+}
+
+.navMenu_item_active.active {
+    background-color: rgba(169, 233, 224, 0.75);
+    cursor: pointer;
+    border-radius: 16px;
+}

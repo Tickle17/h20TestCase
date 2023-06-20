@@ -1,0 +1,44 @@
+.ag-theme-alpine {
+    --ag-header-height: 30px;
+    --ag-header-foreground-color: #54D3C2;
+    --ag-header-background-color: #ffffff;
+    --ag-grid-size: 5px;
+    --ag-row-border-width: 1px;
+    --ag-row-border-color: #f8f8f8;
+    --ag-borders: 2px solid #f8f8f8;
+    --ag-cell-horizontal-border: 2px solid #f8f8f8;
+    --ag-header-column-separator-display: block;
+    --ag-header-column-separator-height: 100%;
+    --ag-header-column-separator-width: 1px;
+    --ag-header-column-separator-color: #f8f8f8;
+    --ag-selected-row-background-color: none; /*убираем фон на выделенных элементах*/
+
+}
+
+.ag-root-wrapper {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.ag-theme-alpine .ag-header {
+    font-family: "Arial";
+}
+
+.ag-theme-alpine .ag-header-group-cell {
+    font-weight: normal;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.ag-theme-alpine .ag-header-cell {
+    font-size: 12px;
+}
+
+.paginationMenu {
+    background-color: #ffffff;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    padding: 36px;
+    color: rgba(109, 121, 134, 1);
+    font-weight: 500;
+}

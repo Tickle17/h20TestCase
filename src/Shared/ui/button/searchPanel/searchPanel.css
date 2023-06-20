@@ -1,0 +1,18 @@
+.searchPanel {
+    background-color: #F8F8F8;
+    border-radius: 32px;
+    border: transparent;
+    padding: 9px 20px;
+    align-items: center;
+    justify-content: center
+}
+
+.searchPanel input {
+    background-color: #F8F8F8;
+    border-radius: 32px;
+    border: transparent;
+    padding: 9px;
+    outline: none;
+    white-space: nowrap;
+    width: 100%;
+}

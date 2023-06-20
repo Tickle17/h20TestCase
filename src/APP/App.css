@@ -1,0 +1,86 @@
+/* Обнуление стилей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+
+/* Сброс стилей для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+/* Сброс стилей для списков */
+ul, ol, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Сброс стилей для ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Сброс стилей для кнопок */
+button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* Сброс стилей для изображений */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Сброс стилей для форм */
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/* Сброс стилей для таблиц */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 0;
+    text-align: left;
+}
+
+.mainBG {
+    background: linear-gradient(180deg, #54D3C2 0%, #30898A 100%);
+    height: auto;
+}
+
+.mainHeaderBG {
+    background-color: rgba(255, 255, 255, 1);
+    height: auto;
+    width: 100%;
+    border-bottom-left-radius: 56px;
+    border-top-left-radius: 56px;
+}
+
+.mainBodyBG {
+    background-color: rgba(248, 248, 248, 1);
+    height: 850px; /*change to auto after dev*/
+
+    width: 100%;
+    border-bottom-left-radius: 56px;
+    border-top-left-radius: 56px;
+    boxShadow: "rgba(0, 0, 0, 0.1) 0px 2px 8px";
+    padding: 27px 40px;
+}

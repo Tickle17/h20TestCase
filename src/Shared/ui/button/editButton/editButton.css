@@ -1,0 +1,7 @@
+.editButton {
+    color: #54D3C2;
+    border: 2px solid #54D3C2;
+    padding: 15px;
+    border-radius: 32px;
+    white-space: nowrap;
+}
